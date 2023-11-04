@@ -27,7 +27,7 @@ if button_clicked:
 
     img = np.expand_dims(img, axis = 0)
 
-    model =  tf.keras.models.load_model("../ML.h5")
+    model =  tf.keras.models.load_model("ML.h5")
 
     prediction = model.predict(img)
 
